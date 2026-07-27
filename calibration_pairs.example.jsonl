@@ -1,0 +1,2 @@
+{"query": "gateway port", "doc_a": "Gateway runs on port 8890", "doc_b": "Gateway runs on port 8890", "value_a": "8890", "value_b": "8890", "label": "same"}
+{"query": "gateway port", "doc_a": "Gateway runs on port 8890", "doc_b": "Gateway listens on 8080", "value_a": "8890", "value_b": "8080", "label": "conflict"}

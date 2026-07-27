@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtualenv / pipenv
+.venv/
+.cache/
+
+# MemAnchor data -- SQLite facts DB + WAL files, ChromaDB persistent store.
+# Never commit real fact data (may contain user-stated/PII-adjacent content)
+# to a public repo. Covers default config paths (./data/memanchor.db,
+# ./data/chroma) plus any relocated db/chroma files anywhere in the repo.
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# backup_snapshot.sh output -- same real-fact-data concern as data/ above;
+# ChromaDB's persistent directory includes binary index files that don't
+# match any pattern above.
+backups/
+
+# Secrets / local overrides
+.env
+.env.*
+memanchor.local.yaml
+
+# OS / editor cruft
+.DS_Store
+
+# Project-specific (intentionally untracked in this repo)
+specs/
+.claude/
+docs/

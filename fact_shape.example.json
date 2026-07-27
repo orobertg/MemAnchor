@@ -1,0 +1,13 @@
+{
+  "entity_field": "entity",
+  "attribute_field": "attribute",
+  "value_field": "value",
+  "attributes": [
+    {
+      "name": "gateway_port",
+      "cardinality": "ONE",
+      "allow_inferred_provenance": false,
+      "allow_auto_resolve_cardinality_one": false
+    }
+  ]
+}
