@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/6a5d406a-9603-4410-9858-194cccf4ed83
+
 # MemAnchor
 
 MemAnchor is a memory system for AI agents that solves a problem plain vector
